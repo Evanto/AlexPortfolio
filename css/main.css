@@ -1,0 +1,217 @@
+html,
+body {
+  background: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+/* Header */
+
+.header {
+  background: #000;
+  min-height: 80px;
+}
+
+.header img {
+  margin: 15px 0 0 0;
+}
+
+/* Menu */
+
+.menu {
+  background: #ffffff;
+  color: #f2f2f2;
+  min-height: 40px;
+}
+
+.menu ul.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul.nav li:hover,
+.menu ul.nav li.active {
+  background: #1a77ff;
+}
+
+.menu ul.nav li {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.menu ul.nav li a {
+  color: #37474F;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul.nav li a:hover {
+  background: transparent;
+}
+
+/* Main */
+
+.main {
+  background: #fff;
+}
+
+.main .container .col-md-5 {
+  padding: 40px;
+}
+
+.main .container .col-md-5 p.date {
+  color: #fff;
+  font-size: 16px;
+}
+
+.main .container .col-md-5 h2 {
+  color: #212121;
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+.main .container .col-md-5 h2 span {
+  border-bottom: 5px solid #1a77ff;
+}
+
+.main .container .col-md-5 p {
+  color: #212121;
+  font-size: 20px;
+}
+
+.col-md-12 img {
+  width: 100%
+}
+
+/* Footer */
+
+.footer {
+  background: #fff;
+  padding: 40px 0;
+  color: #212121;
+}
+
+.f1ooter ul {1
+02 1 float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  color: #212121;
+  display: inline;
+  margin: 0 40px 0 0;
+  float: right;
+}
+
+.footer p {
+  color: #212121;
+  float: left;
+}
+
+/* End Footer */
+
+/* Form Button */
+
+.box-button  {
+  width:1200px;
+  height:150px;
+  margin: 0 auto auto;
+  padding: 0px;
+  text-align: center;
+  text-transform: uppercase; 
+  font-size: 100px;
+  color: #f2f2f2;
+  border-radius: 0px;
+  border: 1px solid #f2f2f2;
+  background-color: #428bca;
+ }
+
+/* End Form Button */
+
+/* Portfolio */
+
+figure {
+  margin-bottom: 30px;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figure.col-md-4 {
+  padding: 0 0 0 0;
+}
+
+section.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+form.line-form {
+    border: none;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+section.container {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+/* Horizontal Form */
+
+.form-control{
+  height: 69px;
+  width: 1200px;
+}
+
+#contact{
+  margin-top:69px;
+  margin-bottom:69px;
+}
+
+#booking_email{
+  width:304px;
+  height: 69px;
+}
+
+#client_name{
+  width:304px;
+  height:69px;
+}
+
+#price_num{
+  width:216px;
+  height:69px;
+}
+
+#project_type{
+  height:69px;
+}
+
+/* End Horizontal Form */
+
+
